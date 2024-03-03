@@ -13,3 +13,26 @@ Some popular UI testing frameworks include:
 5. **Appium**: An open-source mobile application testing framework designed to automate tests for both iOS and Android applications. It supports various programming languages like JavaScript, Ruby, Java, Python, Node.js, C#, and PHP
 6. **Robot Framework**: This Python-based framework uses a keyword-driven approach to make tests readable and easy to create. It supports testing beyond websites to include FTP, MongoDB, Android, and Appium
 7. **Cucumber**: Known for its behavior-driven development (BDD) integration with tools like Cucumber and JBehave, Cucumber is a Java-based framework suitable for collaboration between technical and non-technical team members
+
+
+
+## Cypress:
+### Advantages:
+Known for its easy-to-use syntax and integrated test runner, ideal for end-to-end testing.
+Offers comprehensive test insight, efficient debugging, built-in wait mechanism, behavioral and functional testing, and network traffic control.
+Captures screenshots during test execution for easy review of commands and outcomes.
+Automatically waits for commands and assertions to complete, reducing the need for explicit or implicit wait commands.
+Supports Spies, Stubs, and Clocks for verifying and controlling server responses, functions, or timers.
+Executes commands in real-time with visual feedback as they run.
+### Limitations:
+Cannot drive two browsers simultaneously.
+Lacks support for multi-tabs.
+Supports only JavaScript for creating test cases.
+Does not provide support for browsers like Safari and IE at the moment.
+
+## Selenium:
+### Advantages:
+Offers extensive browser support and a lot of documentation.
+Provides flexibility in choosing the programming language of choice for automation.
+Supports multiple languages like Ruby, Python, Java, etc., through language bindings.
+Uses the Selenium WebDriver library along with a language binding to automate test cases.
