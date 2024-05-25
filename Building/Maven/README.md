@@ -35,4 +35,4 @@ maven-based-app
 
 
 ## Links:
-[Apache Maven]([https://link-url-here.org](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html))
+[Apache Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
