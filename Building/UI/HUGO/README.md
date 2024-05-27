@@ -5,19 +5,19 @@ Hugo is one of the most popular open-source static site generators. With its ama
 
 
 ## Getting Started
-Step1: Install Hugo and verify version 
+
+**Step1:** Install Hugo and verify version 
 ```
 winget install Hugo.Hugo.Extended
 hugo version
 ```
 
-Step2: Create a Website with YML configuration 
+**Step2:** Create a Website with YML configuration 
 ```
 hugo new site my-hugo-blog -f yml
 
 ```
-
-### Check the Folder Structure 
+### Analyze the Folder Structure 
 ```mermaid
 graph TD
     A[my-hugo-blog]
@@ -58,6 +58,39 @@ graph TD
     I1 --> I1_5[theme.toml]
 
 ```
+
+**Step3:** Select a theme for the Hugo Website using https://themes.gohugo.io/ or create your own 
+```
+cp -R theme-name  themes
+```
+
+**Step4:** Configure the theme 
+```
+baseURL = ''
+languageCode = 'en-us'
+title = 'My Blog'
+theme = 'PaperMod'
+```
+
+Start the Website 
+```
+hugo server
+```
+
+**Step5:** Create the First Blog 
+```
+hugo new posts/first.md
+```
+
+**Step6:** Check the Blog 
+```
+hugo server -D
+```
+
+
+
+
+
 
 
 
