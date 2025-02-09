@@ -8,6 +8,8 @@ Spring Boot is a popular framework that simplifies the development of backend ap
 - Flexibility and Extensibility
 - Production-Ready Features
 
-
-
-
+## Spring Boot API using Spring JPA and WebClient:
+Entity Class: Define the table.
+Repository: JPA repository for CRUD operations.
+Service: Handles the logic of updating request statuses and making WebClient calls.
+Controller: Exposes an API to trigger the request.
