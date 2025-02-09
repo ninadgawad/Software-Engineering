@@ -20,4 +20,15 @@ Spring Boot is a popular framework that simplifies the development of backend ap
 A DTO (Data Transfer Object) is an object used to transfer data between layers (e.g., from the repository layer to the service layer or from the service layer to the controller). 
 It helps in decoupling the database model (Entity) from the API response.
 
+## Enhancing updateOrderSuccess with Spring JPA Best Practices
+
+**To follow Spring JPA best practices, we’ll implement updateOrderSuccess efficiently by using:**
+
+✅ DTO projections instead of fetching the entire entity.
+
+✅ @Modifying and @Transactional for efficient updates.
+
+✅ Optimized exception handling with @ControllerAdvice.
+
+✅ Logging with @Slf4j for debugging.
 
