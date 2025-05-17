@@ -10,18 +10,54 @@
 
 ### Legacy Foundations
 __Java Executors & Futures__
+- Traditional thread pool management via ExecutorService
+- Blocking, limited scalability
+- Still useful for controlled thread management
 
-Traditional thread pool management via ExecutorService
+__CompletableFuture__
+- Introduced in Java 8 for async task chaining
+- Supports non-blocking computation
+- Ideal for async workflows without full reactive overhead
 
-Blocking, limited scalability
+__Spring Boot Async Support__
+- @Async Annotation
+- Makes methods run asynchronously in the background
+- Backed by TaskExecutor
+- Easy drop-in for simple parallelization in Spring apps
 
-Still useful for controlled thread management
 
-⚙️ CompletableFuture
+__Reactive Programming (Project Reactor)__
+-WebFlux + Mono/Flux
+- Built for non-blocking, event-driven systems
+- Ideal for high-throughput, IO-bound applications
+- Reactive Streams spec compatible
+- Requires a reactive mindset and toolchain
 
-Introduced in Java 8 for async task chaining
+**Virtual Threads (Java 21 - GA)**
+- New lightweight threads in the JDK
+- Thousands of threads with minimal memory overhead
+- Simplifies concurrent code — same old imperative style
+- Great for high-concurrency applications (e.g., web servers)
+- Enabled via Thread.ofVirtual().start(...)
 
-Supports non-blocking computation
+__Structured Concurrency (Java 21)__
+- Better lifecycle management for concurrent tasks
+- Tasks run in a scoped, coordinated way
+- Cancellation and failure handled uniformly
 
-Ideal for async workflows without full reactive overhead
+Example: try (var scope = new StructuredTaskScope.ShutdownOnFailure())
 
+__Spring Boot + Virtual Threads__
+- Spring Boot 3.2+ offers early support
+- Tomcat, Jetty, and Undertow can run with virtual threads
+- Just set: server.tomcat.threads.virtual=true
+Still maturing, but promising for simplifying thread management
+
+
+| Use Case                     | Recommended Option            |
+| ---------------------------- | ----------------------------- |
+| Simple async method          | `@Async`, `CompletableFuture` |
+| High-concurrency IO          | Virtual Threads (Java 21)     |
+| Reactive APIs or Streams     | WebFlux (Reactive)            |
+| Coordinated multi-task logic | Structured Concurrency        |
+| Legacy systems               | Executors/Futures             |
