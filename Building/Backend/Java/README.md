@@ -68,7 +68,12 @@ public class StarTrekAsync {
 }
 
 ```
-
+### Output:
+```
+Captain's Log: Stardate 41153.7
+Starfleet: Mission is classified
+Spock: Highly illogical, but probable
+```
 
 __Spring Boot Async Support__
 - @Async Annotation
