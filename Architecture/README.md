@@ -16,16 +16,16 @@ It's essentially the blueprint for a software application, guiding the developme
 
 ## Why is Software Architecture Important?
 
-Foundation for Development: 
+**Foundation for Development:**
 Provides a structured framework for building the system, making development smoother and more efficient. 
 
-Scalability and Maintainability:
+**Scalability and Maintainability:**
 Enables the system to handle increasing demands and be easily maintained and updated. 
 
-Performance and Reliability:
+**Performance and Reliability:**
 Ensures the system meets performance requirements and operates reliably. 
 
-Early Design Decisions:
+**Early Design Decisions:**
 Impacts the overall quality of the system, making it crucial to make informed choices early on. 
 
 ## Software Architecture in Practice:
