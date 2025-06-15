@@ -1,5 +1,4 @@
 ## Micro Frontends: Modular Frontend Development
-
 Micro frontends extend the microservices philosophy to the client side, breaking monolithic frontends into smaller, autonomous modules. 
 Each module—developed, tested, and deployed independently—enables teams to work concurrently on different application parts without interdependencies.
 
@@ -26,3 +25,7 @@ Each module—developed, tested, and deployed independently—enables teams to w
 
 
 Example: A retail site might use micro frontends for search (React), checkout (Vue), and recommendations (Angular), all seamlessly combined.
+
+
+#### Reference:
+- https://micro-frontends.org/
