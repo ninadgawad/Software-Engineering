@@ -37,7 +37,8 @@ Provides Layer 7 load balancing with advanced routing capabilities, SSL terminat
 The service integrates seamlessly with ECS and EKS for automated service discovery and traffic distribution.
 
 **Amazon VPC (Virtual Private Cloud)**
-Ceates isolated network environments with customizable subnets, security groups, and NACLs. Multi-AZ deployment across availability zones ensures high availability and fault tolerance.
+Ceates isolated network environments with customizable subnets, security groups, and NACLs. 
+Multi-AZ deployment across availability zones ensures high availability and fault tolerance.
 
 **AWS Certificate Manager (ACM)**
 Automates SSL/TLS certificate provisioning and renewal, eliminating manual certificate management overhead while ensuring secure communications.
@@ -49,5 +50,39 @@ This reduces latency and improves user experience while offloading traffic from 
 **Amazon API Gateway**
 Provides managed API endpoints with throttling, authentication, and monitoring capabilities. 
 It serves as the entry point for microservices, handling request routing, validation, and response transformation.
+
+**Amazon Elastic Container Registry (ECR)** 
+Stores Docker images with vulnerability scanning, lifecycle policies, and fine-grained access controls. 
+Integration with ECS/EKS enables automated deployments and rollbacks.
+
+**Amazon RDS PostgreSQL** 
+It provides managed relational database services with automated backups, patch management, and Multi-AZ deployment for high availability. 
+Read replicas can be deployed across regions for read scaling and disaster recovery.
+
+**Amazon RDS Proxy**
+Manages database connections efficiently, reducing connection overhead and improving application performance during traffic spikes.
+
+**Amazon S3**
+S3 provides virtually unlimited object storage with multiple storage classes for cost optimization. 
+S3 integrates with CloudFront for content delivery and supports versioning, lifecycle policies, and cross-region replication.
+
+**Amazon MSK (Managed Streaming for Apache Kafka)
+Provides fully managed Kafka clusters with automatic provisioning, monitoring, and scaling. 
+MSK handles high-throughput event streaming for real-time notifications and data processing.
+
+**Amazon SQS and Amazon SNS**
+Complement Kafka for simpler messaging patterns, providing reliable message queuing and pub/sub capabilities with dead letter queues for error handling.
+
+**Amazon EMR**
+Runs Apache Spark clusters for large-scale data processing and analytics workloads. 
+EMR integrates with S3 for data lake architectures and supports automatic scaling based on workload demands.
+
+**AWS Glue**
+Provides serverless ETL capabilities for data preparation and transformation, with a managed catalog for metadata management and schema evolution.
+
+**Amazon CloudWatch**
+Ccollects metrics, logs, and traces from all AWS services. 
+Custom metrics and alarms enable proactive monitoring and automated responses to system events.
+
 
 
