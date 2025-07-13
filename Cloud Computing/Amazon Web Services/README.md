@@ -66,7 +66,7 @@ Manages database connections efficiently, reducing connection overhead and impro
 S3 provides virtually unlimited object storage with multiple storage classes for cost optimization. 
 S3 integrates with CloudFront for content delivery and supports versioning, lifecycle policies, and cross-region replication.
 
-**Amazon MSK (Managed Streaming for Apache Kafka)
+**Amazon MSK (Managed Streaming for Apache Kafka)**
 Provides fully managed Kafka clusters with automatic provisioning, monitoring, and scaling. 
 MSK handles high-throughput event streaming for real-time notifications and data processing.
 
