@@ -36,3 +36,28 @@ Microservices Architecture:
 
 **Layered Architecture:**
 - Divides the system into distinct layers (e.g., presentation, application, data access), improving modularity and maintainability. 
+
+
+## Quotes 
+
+"Simple is better than complex. Complex is better than complicated."
+— Zen of Python
+
+"Architecture is the decisions you wish you could get right early in a project."
+— Ralph Johnson
+
+"All architecture is design, but not all design is architecture."
+— Grady Booch
+
+"The hardest part of software is not writing code, it's understanding what the code should do."
+— Martin Fowler
+
+"There are no solutions, only trade-offs."
+— Thomas Sowell
+
+"If you're not making decisions that are hard to reverse, you're not doing architecture."
+— Gregor Hohpe
+
+"Build systems you can fix, not systems that don't break."
+— John Allspaw
+
