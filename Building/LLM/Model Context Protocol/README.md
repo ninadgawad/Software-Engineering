@@ -11,4 +11,4 @@ and agentic, with key components including the MCP Host (AI app), Client, and Se
 - Automation: Enables LLMs to act as autonomous agents by executing multi-step workflows.
 
 ## Reference
-[MCP]([MCP](https://modelcontextprotocol.io/docs/getting-started/intro))
+[MCP](https://modelcontextprotocol.io/docs/getting-started/intro)
