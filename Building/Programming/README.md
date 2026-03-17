@@ -11,10 +11,12 @@ Type of programming paradigms:
 **Object Oriented programming**
 
 ### Languages
-**Java**
-**Scala**
-**Python**
-**JavaScript** is a multi paradigms language. It supports Object Oriented Programming and Functional programming both.
+- **Java**
+- **Scala**
+- **Python**
+-  **JavaScript** is a multi paradigms language.
+
+It supports Object Oriented Programming and Functional programming both.
 
 
 
